@@ -14,14 +14,14 @@ contacts[name] = number  “adds a new contact ”
 
 print(f"Added {name}: {number}")  confirms the contact was saved
 
-def view_contacts(contacts):  defines a function to display all contacts
+def view_contacts(contacts): --> defines a function to display all contacts
 
 if not contacts:
 
 print("No contacts yet.")
 return
 
-print("\n--- Contact Book ---")  prints a header and adds a blank line
+print("\n--- Contact Book ---") --> prints a header and adds a blank line
 for name, number in contacts.items():
 print(f"{name}: {number}")  prints one contact per line
 print("---------------------") --> “you can do away with this”
