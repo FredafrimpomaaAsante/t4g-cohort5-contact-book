@@ -24,7 +24,7 @@ return
 print("\n--- Contact Book ---") --> prints a header and adds a blank line
 for name, number in contacts.items():
 print(f"{name}: {number}") --> prints one contact per line
-print("---------------------") --> “you can do away with this”
+
 
 def search_contact(contacts):
 
