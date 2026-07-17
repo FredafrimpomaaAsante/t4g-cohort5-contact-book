@@ -10,9 +10,9 @@ print(f"'{name}' already exists. Overwriting number.")
 The code above checks whether the name already exits as a reserved
 keyword
 
-contacts[name] = number  “adds a new contact ”
+contacts[name] = number --> “adds a new contact ”
 
-print(f"Added {name}: {number}")  confirms the contact was saved
+print(f"Added {name}: {number}") --> confirms the contact was saved
 
 def view_contacts(contacts): --> defines a function to display all contacts
 
@@ -23,7 +23,7 @@ return
 
 print("\n--- Contact Book ---") --> prints a header and adds a blank line
 for name, number in contacts.items():
-print(f"{name}: {number}")  prints one contact per line
+print(f"{name}: {number}") --> prints one contact per line
 print("---------------------") --> “you can do away with this”
 
 def search_contact(contacts):
